@@ -133,6 +133,8 @@ void setup()
 
   // Frame parameters
   //config.frame_size = FRAMESIZE_UXGA;
+  // frame_size defines the resolution of the camera stream
+  // see the definition of the FRAMESIZE_VGA enum to get all options
   config.frame_size = FRAMESIZE_VGA;
   config.jpeg_quality = 12;
   config.fb_count = 2;
